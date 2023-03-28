@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8961754-3629-4ad5-b100-779d5d8c57a5" name="Changes" comment="" />
+    <list default="true" id="d8961754-3629-4ad5-b100-779d5d8c57a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/blog/templates/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/blog/templates/blog/single_post_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/django_project/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +26,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,8 +42,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vecherish/Documents/Cloud-Programming2023&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vecherish/Documents/github/Cloud-Programming2023/Cloud-Programming&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -38,6 +52,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/django_project/blog/static/img" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Cloud-Programming2023" />
@@ -74,6 +93,8 @@
       <workItem from="1679453211597" duration="176000" />
       <workItem from="1679453391666" duration="403000" />
       <workItem from="1679453798095" duration="55000" />
+      <workItem from="1679986002025" duration="3790000" />
+      <workItem from="1679990512659" duration="167000" />
     </task>
     <servers />
   </component>
