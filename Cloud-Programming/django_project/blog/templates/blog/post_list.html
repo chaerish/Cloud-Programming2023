@@ -85,12 +85,16 @@
                 {% for p in post_list %}
                 <!-- Blog Post -->
                 <div class="card mb-4">
-                    <img class="card-img-top" src="{{ p.head_image.url}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h2 class="card-title">{{ p.title}}</h2>
-                        <p class="card-text">{{ p.content }}</p>
-                        <a href="{{ p.get_absolute_url }}" class="btn btn-primary">Read More &rarr;</a>
-                    </div>
+                    {% if p.head_image %}
+                        <img class="card-img-top" src="{{ p.head_image.url}}" alt="Card image cap">
+                    {% else %}
+                        <img class="card-img-top" src="https://propertywiselaunceston.com.au/wp-content/themes/property-wise/images/no-image.png">
+                    {% endif %}
+                        <div class="card-body">
+                            <h2 class="card-title">{{ p.title}}</h2>
+                            <p class="card-text">{{ p.content | truncatechars:30}}</p>
+                            <a href="{{ p.get_absolute_url }}" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
                     <div class="card-footer text-muted">
                         Posted on {{ p.created_at}} by
                         <a href="#">작성자명 쓸 위치(개발예정)</a>
