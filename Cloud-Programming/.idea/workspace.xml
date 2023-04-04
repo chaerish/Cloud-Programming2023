@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8961754-3629-4ad5-b100-779d5d8c57a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/single_pages/templates/single_pages/aboutme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/django_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +95,10 @@
       <workItem from="1679986002025" duration="3790000" />
       <workItem from="1679990512659" duration="2534000" />
       <workItem from="1680482762594" duration="5304000" />
+      <workItem from="1680575704051" duration="489000" />
+      <workItem from="1680576196437" duration="1886000" />
+      <workItem from="1680588237302" duration="1071000" />
+      <workItem from="1680589313567" duration="478000" />
     </task>
     <servers />
   </component>
