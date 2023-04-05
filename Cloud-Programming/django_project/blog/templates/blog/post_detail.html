@@ -91,6 +91,14 @@
         <p>No file upload</p>
         {% endif %}
         <hr>
+        {% if post.tag.exists %}
+            {% for tag in post.tag.iterator %}
+                <a href="{{ tag.get_absolute_url }}">{{ tag }}</a>
+
+            {% endfor %}
+
+
+        {% endif %}
 
         <!-- Comments Form -->
         <div class="card my-4">
