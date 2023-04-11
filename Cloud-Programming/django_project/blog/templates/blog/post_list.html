@@ -1,8 +1,16 @@
 {% extends 'blog/base.html' %}
 
 {% block main_area %}
+                {% if user.is_authenticated %}
+                    {% if user.is_superuser or user.is_staff %}
+                        <a href="/blog/create_post/" role="button">글쓰기</a>
+                    {% endif %}
+                {% endif %}
+                <h1>Blog{%  if category  %} posting with {{ category }}</h1>
+                {% endif %}
+                {%  if tag %} posting with {{ tag }}
+                {% endif %}
 
-                <h1>Blog</h1>
                 {% for p in post_list %}
                 <!-- Blog Post -->
                 <div class="card mb-4">
@@ -12,13 +20,14 @@
                         <img class="card-img-top" src="https://propertywiselaunceston.com.au/wp-content/themes/property-wise/images/no-image.png">
                     {% endif %}
                         <div class="card-body">
-                            <h2 class="card-title">{{ p.title}} {{p.category}}</h2>
+                            <h2 class="card-title">{{ p.title}}</h2>
                             {% if p.sub_title %}
                                 <p class="card-text">{{ p.sub_title}}</p>
                             {% else %}
                                 <p class="card-text">{{ p.content | truncatechars:30}}</p>
                             {% endif %}
                                 <a href="{{ p.get_absolute_url }}" class="btn btn-primary">Read More &rarr;</a>
+                                <a href="{{ p.category.get_absolute_url }}">{{p.category}}</a>
                             </div>
                     <div class="card-footer text-muted">
                         Posted on {{ p.created_at}} by

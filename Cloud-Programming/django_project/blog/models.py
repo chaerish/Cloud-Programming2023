@@ -48,7 +48,7 @@ class Post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     # user // cascade= > 계단식으로 다 삭제해라
-    author = models.ForeignKey(User, null=True, on_delete=models.CASCADE);
+    author = models.ForeignKey(User, null=False, on_delete=models.CASCADE);
 
     def __str__(self):
         return f'[{self.pk}] {self.title} :: {self.author}'
